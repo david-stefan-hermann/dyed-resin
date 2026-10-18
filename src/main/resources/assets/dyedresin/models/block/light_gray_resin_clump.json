@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/resin_clump",
+  "textures": {
+    "particle": "dyedresin:block/light_gray_resin_clump",
+    "texture": "dyedresin:block/light_gray_resin_clump"
+  }
+}

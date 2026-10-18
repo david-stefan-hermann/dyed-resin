@@ -1,0 +1,58 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_resin_clump": {
+      "conditions": {
+        "items": [
+          {
+            "items": "#dyedresin:resin_clumps"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "has_resin_clump"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "dyedresin:white_resin_clump",
+      "dyedresin:white_resin_clump_from_eight",
+      "dyedresin:orange_resin_clump",
+      "dyedresin:orange_resin_clump_from_eight",
+      "dyedresin:magenta_resin_clump",
+      "dyedresin:magenta_resin_clump_from_eight",
+      "dyedresin:light_blue_resin_clump",
+      "dyedresin:light_blue_resin_clump_from_eight",
+      "dyedresin:yellow_resin_clump",
+      "dyedresin:yellow_resin_clump_from_eight",
+      "dyedresin:lime_resin_clump",
+      "dyedresin:lime_resin_clump_from_eight",
+      "dyedresin:pink_resin_clump",
+      "dyedresin:pink_resin_clump_from_eight",
+      "dyedresin:gray_resin_clump",
+      "dyedresin:gray_resin_clump_from_eight",
+      "dyedresin:light_gray_resin_clump",
+      "dyedresin:light_gray_resin_clump_from_eight",
+      "dyedresin:cyan_resin_clump",
+      "dyedresin:cyan_resin_clump_from_eight",
+      "dyedresin:purple_resin_clump",
+      "dyedresin:purple_resin_clump_from_eight",
+      "dyedresin:blue_resin_clump",
+      "dyedresin:blue_resin_clump_from_eight",
+      "dyedresin:brown_resin_clump",
+      "dyedresin:brown_resin_clump_from_eight",
+      "dyedresin:green_resin_clump",
+      "dyedresin:green_resin_clump_from_eight",
+      "dyedresin:red_resin_clump",
+      "dyedresin:red_resin_clump_from_eight",
+      "dyedresin:black_resin_clump",
+      "dyedresin:black_resin_clump_from_eight",
+      "dyedresin:resin_clump_from_dyed",
+      "dyedresin:guide_book"
+    ]
+  }
+}

@@ -1,0 +1,150 @@
+{
+  "multipart": [
+    {
+      "apply": {
+        "model": "dyedresin:block/light_gray_resin_clump"
+      },
+      "when": {
+        "north": "true"
+      }
+    },
+    {
+      "apply": {
+        "model": "dyedresin:block/light_gray_resin_clump"
+      },
+      "when": {
+        "down": "false",
+        "up": "false",
+        "north": "false",
+        "south": "false",
+        "west": "false",
+        "east": "false"
+      }
+    },
+    {
+      "apply": {
+        "model": "dyedresin:block/light_gray_resin_clump",
+        "y": 90,
+        "uvlock": true
+      },
+      "when": {
+        "east": "true"
+      }
+    },
+    {
+      "apply": {
+        "model": "dyedresin:block/light_gray_resin_clump",
+        "y": 90,
+        "uvlock": true
+      },
+      "when": {
+        "down": "false",
+        "up": "false",
+        "north": "false",
+        "south": "false",
+        "west": "false",
+        "east": "false"
+      }
+    },
+    {
+      "apply": {
+        "model": "dyedresin:block/light_gray_resin_clump",
+        "y": 180,
+        "uvlock": true
+      },
+      "when": {
+        "south": "true"
+      }
+    },
+    {
+      "apply": {
+        "model": "dyedresin:block/light_gray_resin_clump",
+        "y": 180,
+        "uvlock": true
+      },
+      "when": {
+        "down": "false",
+        "up": "false",
+        "north": "false",
+        "south": "false",
+        "west": "false",
+        "east": "false"
+      }
+    },
+    {
+      "apply": {
+        "model": "dyedresin:block/light_gray_resin_clump",
+        "y": 270,
+        "uvlock": true
+      },
+      "when": {
+        "west": "true"
+      }
+    },
+    {
+      "apply": {
+        "model": "dyedresin:block/light_gray_resin_clump",
+        "y": 270,
+        "uvlock": true
+      },
+      "when": {
+        "down": "false",
+        "up": "false",
+        "north": "false",
+        "south": "false",
+        "west": "false",
+        "east": "false"
+      }
+    },
+    {
+      "apply": {
+        "model": "dyedresin:block/light_gray_resin_clump",
+        "x": 270,
+        "uvlock": true
+      },
+      "when": {
+        "up": "true"
+      }
+    },
+    {
+      "apply": {
+        "model": "dyedresin:block/light_gray_resin_clump",
+        "x": 270,
+        "uvlock": true
+      },
+      "when": {
+        "down": "false",
+        "up": "false",
+        "north": "false",
+        "south": "false",
+        "west": "false",
+        "east": "false"
+      }
+    },
+    {
+      "apply": {
+        "model": "dyedresin:block/light_gray_resin_clump",
+        "x": 90,
+        "uvlock": true
+      },
+      "when": {
+        "down": "true"
+      }
+    },
+    {
+      "apply": {
+        "model": "dyedresin:block/light_gray_resin_clump",
+        "x": 90,
+        "uvlock": true
+      },
+      "when": {
+        "down": "false",
+        "up": "false",
+        "north": "false",
+        "south": "false",
+        "west": "false",
+        "east": "false"
+      }
+    }
+  ]
+}

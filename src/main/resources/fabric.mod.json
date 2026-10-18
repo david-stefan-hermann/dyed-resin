@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 1,
+  "id": "dyedresin",
+  "version": "${version}",
+  "name": "Dyed Resin",
+  "description": "Resin clumps in all sixteen dye colours: dye them in the crafting grid, place them like plain ones, wash the colour out again.",
+  "authors": [
+    "BaconCakeFactory"
+  ],
+  "contact": {
+    "sources": "https://github.com/david-stefan-hermann/dyed-resin"
+  },
+  "license": "MIT",
+  "icon": "assets/dyedresin/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "dyedresin.DyedResin"
+    ],
+    "client": [
+      "dyedresin.DevSceneClient"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric-api": "*",
+    "bcfguidebooklib": ">=1.0.0",
+    "minecraft": "~26.2",
+    "java": ">=25"
+  }
+}

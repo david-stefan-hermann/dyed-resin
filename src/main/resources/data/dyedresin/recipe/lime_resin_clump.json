@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "group": "dyed_resin_clump",
+  "ingredients": [
+    "#dyedresin:resin_clumps",
+    "minecraft:lime_dye"
+  ],
+  "result": {
+    "id": "dyedresin:lime_resin_clump"
+  }
+}

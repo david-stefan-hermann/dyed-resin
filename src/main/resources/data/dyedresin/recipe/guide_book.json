@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "minecraft:book",
+    "minecraft:resin_clump"
+  ],
+  "result": {
+    "id": "dyedresin:guide_book"
+  }
+}

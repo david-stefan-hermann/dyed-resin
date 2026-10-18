@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "group": "dyed_resin_clump_eight",
+  "key": {
+    "#": "#dyedresin:resin_clumps",
+    "X": "minecraft:yellow_dye"
+  },
+  "pattern": [
+    "###",
+    "#X#",
+    "###"
+  ],
+  "result": {
+    "count": 8,
+    "id": "dyedresin:yellow_resin_clump"
+  }
+}
