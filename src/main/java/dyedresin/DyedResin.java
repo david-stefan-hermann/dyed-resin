@@ -47,7 +47,6 @@ public final class DyedResin implements ModInitializer {
                     CLUMPS.forEach(out::accept);
                 })
                 .build());
-        GuideBook.BOOK.giveOnJoin();
         DevSelfTest.init();
         DevScene.init();
     }

@@ -16,9 +16,9 @@ Get `dyedresin-<version>.jar` from [CurseForge](https://www.curseforge.com/minec
 
 ## The guide book
 
-Every player gets a **Dyed Resin Guide** the first time they join: a book with the recipes and an overview of the
-colours, in English and German. Right-click opens it; the clump's tab is on the left, the topics' on the right. Lost
-it? Craft a new one from a book and a resin clump, or take it from the creative tab.
+The **Dyed Resin Guide** is a book with the recipes and an overview of the colours, in English and German. Craft it
+from a book and a resin clump, or take it from the creative tab. Right-click opens it, E or Escape closes it; the
+clump's tab is on the left, the topics' on the right.
 
 This page follows the book chapter by chapter and adds the details that do not fit on its pages.
 
