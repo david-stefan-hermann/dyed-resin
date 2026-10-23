@@ -1,16 +1,16 @@
 # Dyed Resin
 
-Resin clumps in all sixteen dye colours for Minecraft 26.2 (Fabric). A resin clump and a dye in the crafting grid make
+Resin clumps in all sixteen dye colours for Minecraft 26.3 (Fabric). A resin clump and a dye in the crafting grid make
 a **Dyed Resin Clump**, and eight clumps around a dye make eight at once. Dyed clumps are placed, broken and dropped
 just like plain ones, take any other dye to change colour, and turn plain again when you put one into the crafting
 grid on its own. Everything is in its own creative tab, *Dyed Resin*.
 
-![A wall with one dyed resin clump of every colour, and a row of clumps on the floor](https://raw.githubusercontent.com/david-stefan-hermann/dyed-resin/26.2/docs/overview.png)
+![A wall with one dyed resin clump of every colour, and a row of clumps on the floor](https://raw.githubusercontent.com/david-stefan-hermann/dyed-resin/26.3/docs/overview.png)
 
 ## Download
 
 Get `dyedresin-<version>.jar` from [CurseForge](https://www.curseforge.com/minecraft/mc-mods/dyed-resin) or the
-[GitHub releases](https://github.com/david-stefan-hermann/dyed-resin/releases) and put it into `mods/` on the client and the server, next to Fabric API. Requires Minecraft 26.2, Fabric Loader 0.19.3+ and Java 25.
+[GitHub releases](https://github.com/david-stefan-hermann/dyed-resin/releases) and put it into `mods/` on the client and the server, next to Fabric API. Requires Minecraft 26.3, Fabric Loader 0.19.5+ and Java 25.
 
 ## The guide book
 
@@ -20,7 +20,7 @@ clump's tab is on the left, the topics' on the right.
 
 This page follows the book chapter by chapter and adds the details that do not fit on its pages.
 
-![The guide book open on the Dyed Resin Clump chapter](https://raw.githubusercontent.com/david-stefan-hermann/dyed-resin/26.2/docs/book.png)
+![The guide book open on the Dyed Resin Clump chapter](https://raw.githubusercontent.com/david-stefan-hermann/dyed-resin/26.3/docs/book.png)
 
 ## Getting Started
 
@@ -73,4 +73,4 @@ Source and issues: https://github.com/david-stefan-hermann/dyed-resin
 
 ## License
 
-MIT, see [LICENSE](https://github.com/david-stefan-hermann/dyed-resin/blob/26.2/LICENSE). By BaconCakeFactory.
+MIT, see [LICENSE](https://github.com/david-stefan-hermann/dyed-resin/blob/26.3/LICENSE). By BaconCakeFactory.

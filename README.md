@@ -2,7 +2,7 @@
 
 <img src="src/main/resources/assets/dyedresin/icon.png" alt="Dyed Resin logo: the sixteen dyed resin clumps, four by four" width="128" align="right">
 
-Resin clumps in all sixteen dye colours for Minecraft 26.2 (Fabric). A resin clump and a dye in the crafting grid make
+Resin clumps in all sixteen dye colours for Minecraft 26.3 (Fabric). A resin clump and a dye in the crafting grid make
 a **Dyed Resin Clump**, and eight clumps around a dye make eight at once. Dyed clumps are placed, broken and dropped
 just like plain ones, take any other dye to change colour, and turn plain again when you put one into the crafting
 grid on its own. Everything is in its own creative tab, *Dyed Resin*.
@@ -12,7 +12,7 @@ grid on its own. Everything is in its own creative tab, *Dyed Resin*.
 ## Download
 
 Get `dyedresin-<version>.jar` from [CurseForge](https://www.curseforge.com/minecraft/mc-mods/dyed-resin) or the
-[GitHub releases](../../releases) and put it into `mods/` on the client and the server, next to Fabric API. Requires Minecraft 26.2, Fabric Loader 0.19.3+ and Java 25.
+[GitHub releases](../../releases) and put it into `mods/` on the client and the server, next to Fabric API. Requires Minecraft 26.3, Fabric Loader 0.19.5+ and Java 25.
 
 ## The guide book
 

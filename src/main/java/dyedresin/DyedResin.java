@@ -57,7 +57,7 @@ public final class DyedResin implements ModInitializer {
         return Registry.register(BuiltInRegistries.BLOCK, id, new MultifaceBlock(BlockBehaviour.Properties.of()
                 .setId(ResourceKey.create(Registries.BLOCK, id))
                 .mapColor(colour.getMapColor()).replaceable().noCollision().sound(SoundType.RESIN).ignitedByLava()
-                .pushReaction(PushReaction.DESTROY)));
+                .pushReaction(PushReaction.POPPED)));
     }
 
     private static Item item(String name, Function<Item.Properties, Item> factory) {

@@ -55,14 +55,14 @@ def blockstate(name):
 
 
 def loot(name):
-    counts = [{'add': True, 'conditions': [{'block': 'dyedresin:' + name, 'condition': 'minecraft:block_state_property',
-                                            'properties': {face: 'true'}}],
-               'count': 1.0, 'function': 'minecraft:set_count'} for face in FACES]
+    counts = [{'type': 'minecraft:set_count', 'add': True,
+               'condition': {'type': 'minecraft:match_block', 'blocks': 'dyedresin:' + name, 'state': {face: 'true'}},
+               'count': 1} for face in FACES]
     return {'type': 'minecraft:block', 'pools': [{'entries': [{
         'type': 'minecraft:item',
-        'functions': counts + [{'add': True, 'count': -1.0, 'function': 'minecraft:set_count'},
-                               {'function': 'minecraft:explosion_decay'}],
-        'name': 'dyedresin:' + name}], 'rolls': 1.0}], 'random_sequence': 'dyedresin:blocks/' + name}
+        'modifier': counts + [{'type': 'minecraft:set_count', 'add': True, 'count': -1},
+                              {'type': 'minecraft:explosion_decay'}],
+        'name': 'dyedresin:' + name}], 'rolls': 1}], 'random_sequence': 'dyedresin:blocks/' + name}
 
 
 def main():
